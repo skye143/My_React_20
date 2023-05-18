@@ -172,14 +172,18 @@ header nav ul li a:hover {
 }
 
 .intro-img {
-  flex: 1 12%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-right: 20px;
 }
 
 .intro-img img {
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
-  margin-left: 5px;
+  margin: 30px;
+  /* margin-left: 5px;
+  margin-bottom: 30px; */
 }
 
 .intro-text {
